@@ -1,7 +1,7 @@
 {
   "type": "minecraft:entity",
   "pools": [
-        {
+    {
       "rolls": 1,
       "entries": [
         {
@@ -10,7 +10,7 @@
         }
       ]
     },
-        {
+    {
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -80,8 +80,8 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "vehicle": {
-                  "type": "minecraft:camel_husk"
+                "minecraft:vehicle": {
+                  "minecraft:entity_type": "minecraft:camel_husk"
                 }
               }
             }

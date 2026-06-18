@@ -1,13 +1,11 @@
 {
   "pack.sforms": "Schattengestalten",
-  "chat.sforms.version": "Compis Mentis / v1.7.4",
+  "chat.sforms.version": "Compis Mentis / v1.7.5",
   "chat.sforms.description": "Extensives Datapack, das alle Monster bei Helligkeit 0 in Schattengestalten verwandelt, sowie einige dazugehörige Features hinzufügt",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Schattengestalten Debug] ",
 
-  "chat.sforms.incorrect_version_warning": "/!\\ Scheinbar nutzt Du die falsche Minecraft Version für diese Version von Schattengestalten. Bitte wechsle zur korrekten Version, damit alles einwandfrei funktioniert.",
-
-  "chat.sforms.load1": "Danke fürs Runterladen! ",
+  "chat.sforms.load1": "Danke fürs Runterladen ",
   "chat.sforms.load2": "! Wenn Du hilfe brauchst, sieh hier nach:\n",
   "chat.sforms.dot": "§r ・",
   "chat.sforms.links.discord": " §nTritt unserem Discord bei!\n",

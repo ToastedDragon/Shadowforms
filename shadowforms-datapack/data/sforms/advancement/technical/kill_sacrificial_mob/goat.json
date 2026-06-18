@@ -14,7 +14,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:goat"
+          "minecraft:entity_type": "minecraft:goat"
         }
       }
     }

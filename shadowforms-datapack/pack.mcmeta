@@ -1,20 +1,20 @@
 {
+  "id": "sforms",
   "pack": {
-    "id": "sforms",
     "description": [
       {
         "text": "Shadowforms: Compis Mentis\n",
         "color": "#c6bde9"
       },
       {
-        "text": "v1.7.4",
+        "text": "v1.7.5",
         "color": "gray"
       }
     ],
     "min_format": [
-      101,
+      107.1,
       1
     ],
-    "max_format": 101
+    "max_format": 107.1
   }
 }

@@ -16,7 +16,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "#sforms:evil",
+          "minecraft:entity_type": "#sforms:evil",
           "location": {
             "light": {
               "light": {

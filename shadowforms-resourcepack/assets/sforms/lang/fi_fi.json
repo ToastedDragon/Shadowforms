@@ -1,11 +1,9 @@
 {
   "pack.sforms": "Shadowforms",
-  "chat.sforms.version": "Compis Mentis / v1.7.4",
+  "chat.sforms.version": "Compis Mentis / v1.7.5",
   "chat.sforms.description": "Laaja datapaketti, joka muuttaa kaikista hirviöistä pimeässä paikassa shadowformin. Datapaketti lisää myös muita ominaisuuksia tämän ympärille.",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Shadowforms debug] ",
-
-  "chat.sforms.incorrect_version_warning": "/!\\ Näyttääpi siltä, että sinulla on väärä versio Minecraftistä tälle Shadowformsin versiolle. Vaihda oikeaan versioon tai asiat eivät pelaa.",
 
   "chat.sforms.load1": "Kiitos ",
   "chat.sforms.load2": "-datapaketin lataamisesta! Jos kaipaat apua, vilkaise näitä linkkejä:\n",
@@ -96,7 +94,7 @@
   "advancement.sforms.below_y_zero.description": "Venture below the stone layer into the deepslate layer",
   "advancement.sforms.find_the_smog": "The sad valley's restlessness.",
   "advancement.sforms.find_the_smog.description": "Find the Smog",
-  "advancement.sforms.use_ancient_enchant": "All the heavens, seem to twinkle",
+  "advancement.sforms.use_ancient_enchant": "Kaikki taivaleet tuikkivilta näyttäpi",
   "advancement.sforms.use_ancient_enchant.description": "Use an item with an Ancient Enchant",
 
   "particles.sforms.blood": "\ua000",

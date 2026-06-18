@@ -14,7 +14,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:cow"
+          "minecraft:entity_type": "minecraft:cow"
         }
       }
     }

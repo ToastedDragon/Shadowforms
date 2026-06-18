@@ -1,7 +1,7 @@
 {
   "type": "minecraft:entity",
   "pools": [
-        {
+    {
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -32,14 +32,12 @@
       "rolls": 1.0
     },
     {
-      "bonus_rolls": 0.0,
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "minecraft:slime",
+            "minecraft:type_specific/cube_mob": {
               "size": 1
             }
           }
@@ -55,7 +53,7 @@
                 "condition": "minecraft:damage_source_properties",
                 "predicate": {
                   "source_entity": {
-                    "type": "minecraft:frog"
+                    "minecraft:entity_type": "minecraft:frog"
                   }
                 }
               }
@@ -63,19 +61,18 @@
           ],
           "functions": [
             {
-              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
+                "max": 2,
+                "min": 0
               },
               "function": "minecraft:set_count"
             },
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
+                "max": 1,
+                "min": 0
               },
               "enchantment": "minecraft:looting",
               "function": "minecraft:enchanted_count_increase"
@@ -90,22 +87,21 @@
               "condition": "minecraft:damage_source_properties",
               "predicate": {
                 "source_entity": {
-                  "type": "minecraft:frog"
+                  "minecraft:entity_type": "minecraft:frog"
                 }
               }
             }
           ],
           "functions": [
             {
-              "add": false,
-              "count": 1.0,
+              "count": 1,
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:slime_ball"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:entities/slime"

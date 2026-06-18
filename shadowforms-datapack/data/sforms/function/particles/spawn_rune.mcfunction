@@ -1,0 +1,3 @@
+$summon text_display ~$(x) ~$(y) ~$(z) {billboard:"center",alignment:"center",background:0,Tags:[sforms.particle.rune],brightness:{block:15,sky:15},teleport_duration:5}
+execute store result score @n[type=minecraft:text_display,tag=sforms.particle.rune] sforms.particle.random run random value 0..9
+data merge entity @n[type=minecraft:text_display,tag=sforms.particle.rune] {text:{score:{name:"@s",objective:"sforms.particle.random"},font:"sforms:runes",color: "#ba1414"}}

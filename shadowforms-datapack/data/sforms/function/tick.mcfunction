@@ -5,6 +5,7 @@ execute as @e[tag=!sforms.checked,tag=!smithed.entity,distance=0..,type=#sforms:
 
 # Blood particles
 execute as @e[tag=sforms.particle.blood,distance=0..,type=text_display] at @s run function sforms:particles/blood
+execute as @e[tag=sforms.particle.rune,distance=0..,type=text_display] at @s run function sforms:particles/rune
 
 execute as @a at @s run function sforms:entities/player/tick
 

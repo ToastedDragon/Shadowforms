@@ -14,7 +14,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:horse"
+          "minecraft:entity_type": "minecraft:horse"
         }
       }
     }

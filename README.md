@@ -32,7 +32,7 @@ Shadowforms also includes an in-game guide book to help the player.
   <h1>Music</h1>
   <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/disc.png">
   <p align="center">
-    For added ambience the datapack includes 1 new music disc, "Danse Macabre" by Camille Saint-Saëns and multiple other classical pieces to set the mood as background tracks.
+    For added ambience the datapack includes a new music disc, "Danse Macabre" by Camille Saint-Saëns and multiple other classical pieces to set the mood as background tracks.
   </p>
 </div>
 <div align="center">

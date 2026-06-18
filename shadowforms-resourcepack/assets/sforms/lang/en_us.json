@@ -1,11 +1,9 @@
 {
   "pack.sforms": "Shadowforms",
-  "chat.sforms.version": "Compis Mentis / v1.7.4",
-  "chat.sforms.description": "Extensive datapack that makes all mobs at light level 0 turn into shadowforms, as well as adding features centered around this mechanic",
+  "chat.sforms.version": "Compis Mentis / v1.7.5",
+  "chat.sforms.description": "Challenging survival datapack where mobs are stronger in the dark and weakened in the light.\n\nShadowforms expands on the worlds below and adds many magic-related features",
   "lore.sforms.tooltip": "\ua000",
   "chat.sforms.debug_prefix": "[Shadowforms debug] ",
-
-  "chat.sforms.incorrect_version_warning": "/!\\ It seems that you are using the wrong version of Minecraft Java for this version of Shadowforms. Please change to the proper version, or things might break.",
 
   "chat.sforms.load1": "Thanks for downloading ",
   "chat.sforms.load2": "! If you need help, check out these links:\n",

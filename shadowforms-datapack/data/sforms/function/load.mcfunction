@@ -8,6 +8,7 @@ scoreboard objectives add sforms.shadowforms_killed dummy
 scoreboard objectives add sforms.heart_ritual dummy
 scoreboard objectives add sforms.used_armor_stand used:armor_stand
 scoreboard objectives add sforms.particle.pentagram dummy
+scoreboard objectives add sforms.particle.rune dummy
 scoreboard objectives add sforms.particle.random dummy
 scoreboard objectives add sforms.particle.lifetime dummy
 scoreboard objectives add sforms.credits trigger

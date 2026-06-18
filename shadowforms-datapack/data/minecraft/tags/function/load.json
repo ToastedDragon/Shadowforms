@@ -1,7 +1,7 @@
 {
     "values": [
        "sforms:load",
-       "sforms:10t_clock",
+       "sforms:2t_clock",
        "sforms:2s_clock",
        "sforms:3s_clock",
        "sforms:blocks/gloombloom/growth_timer",
