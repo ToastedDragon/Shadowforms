@@ -22,7 +22,7 @@ Shadowforms also includes an in-game guide book to help the player.
 </div>
 <div align="center">
   <h1>Structures</h1>
-  <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/ancient_village.png">
+  <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/mortuary.png">
   <img src="https://github.com/DragonPoika/Shadowforms/raw/main/images/smog.png">
   <p align="center">
     Shadowforms adds a new structure, called Mortuary, and a new biome, called the Smog with their own challenges.
