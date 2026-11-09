@@ -1,0 +1,10 @@
+{
+  "comparator_output": 6,
+  "description": {
+    "translate": "item.sforms.record_of_flame.song_title"
+  },
+  "length_in_seconds": 456,
+  "sound_event": {
+    "sound_id": "sforms:block.gramophone.record.flame"
+  }
+}

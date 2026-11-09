@@ -1,0 +1,10 @@
+{
+  "type": "set_components",
+  "components": {
+    "dyed_color": 902096,
+    "item_name": {
+      "translate": "item.sforms.diamond_armor",
+      "color": "aqua"
+    }
+  }
+}

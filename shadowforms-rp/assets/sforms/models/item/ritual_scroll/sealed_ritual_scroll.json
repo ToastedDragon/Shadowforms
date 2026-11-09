@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "sforms:item/ritual_scrolls/sealed_ritual_scroll"
+    }
+}

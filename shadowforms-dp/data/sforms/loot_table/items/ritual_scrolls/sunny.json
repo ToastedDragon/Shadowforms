@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.sforms.ritual_scroll",
+                "italic": false
+              }
+            },
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": "{sforms:{id:\"ritual_scroll_sunny\"}}"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sforms:ritual_scrolls/sunny",
+                "!consumable": {},
+                "!food": {}
+              }
+            },
+            {
+              "type": "set_lore",
+              "lore": [
+                  {
+                    "translate": "item.sforms.ritual_scroll.description",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.sforms.ritual_scroll.sunny.title",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.sforms.ritual_scroll.sunny.description",
+                    "italic": false,
+                    "color": "dark_gray"
+                  },
+                  {
+                    "translate": "item.sforms.ritual_scroll.sunny.main",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "with": [
+                      {
+                        "translate": "item.sforms.ritual_scroll.main_icon",
+                        "font": "sforms:scroll",
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.sforms.ritual_scroll.sunny.secondary",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "with": [
+                      {
+                        "translate": "item.sforms.ritual_scroll.secondary_icon",
+                        "font": "sforms:scroll",
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.sforms.ritual_scroll.sunny.candles",
+                    "italic": false,
+                    "color": "dark_gray",
+                    "with": [
+                      {
+                        "translate": "item.sforms.ritual_scroll.candles_icon",
+                        "font": "sforms:scroll",
+                        "color": "gray"
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.sforms.ritual_scroll.turn",
+                    "with": [
+                      {
+                        "keybind": "key.sneak"
+                      }
+                    ],
+                    "italic": false,
+                    "color": "gray"
+                  }
+              ],
+              "mode": "insert"
+            },
+            "sforms:add_tooltip_lore"
+          ]
+        }
+      ]
+    }
+  ]
+}

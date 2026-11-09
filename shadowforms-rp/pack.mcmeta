@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 97,
+    "min_format": [97, 1],
+    "max_format": [97, 1],
+    "description": [
+      {
+        "text": "Shadowforms\n",
+        "color": "#273261"
+      },
+      {
+        "text": "v1.8.0",
+        "color": "gray"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 25,
+        "min": 15
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:candle",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_hanging_moss",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "value": "sforms:items/ritual_scrolls/sealed",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "sforms:items/gloombloom_blossom",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "torch",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "iron_axe",
+          "modifier": {
+            "type": "set_damage",
+            "damage": {
+              "type": "uniform",
+              "max": 150,
+              "min": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/music_disc_macabre"
+        },
+        {
+          "type": "loot_table",
+          "value": "sforms:blocks/gloombloom_bulb"
+        },
+        {
+          "type": "loot_table",
+          "value": "sforms:items/records/hurt"
+        },
+        {
+          "type": "loot_table",
+          "value": "sforms:items/records/soul"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sforms:gameplay/structures/smog"
+}

@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"0": "sforms:block/gloombloom",
+		"particle": "sforms:block/gloombloom"
+	},
+	"elements": [
+		{
+			"from": [0, 0.1, 0],
+			"to": [16, 0.1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.1, 0]},
+			"faces": {
+				"north": {"uv": [0, 4, 4, 4], "texture": "#0"},
+				"east": {"uv": [-4, 4, 0, 4], "texture": "#0"},
+				"south": {"uv": [8, 4, 12, 4], "texture": "#0"},
+				"west": {"uv": [4, 4, 8, 4], "texture": "#0"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 4, 4], "texture": "#0"}
+			}
+		}
+	]
+}

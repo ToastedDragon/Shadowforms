@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.sforms.sacrificial_heart.villager",
+                "italic": false
+              }
+            },
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": "{sforms:{id:\"sacrificial_heart\",entity:\"villager\"}}"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "!food": {},
+                "!consumable": {},
+                "minecraft:item_model": "sforms:sacrificial_heart/cow",
+                "equippable": {
+                  "slot": "chest",
+                  "equip_sound": {
+                    "sound_id": "sforms:item.sacrificial_heart.equip"
+                  },
+                  "allowed_entities": "#sforms:humanoid",
+                  "dispensable": true
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            "sforms:add_tooltip_lore"
+          ]
+        }
+      ]
+    }
+  ]
+}

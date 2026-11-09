@@ -1,0 +1,13 @@
+{
+  "type": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "contents": {
+        "predicates": {
+          "custom_data": {"sforms": {"id": "music_disc_macabre"}}
+        }
+      }
+    }
+  }
+}

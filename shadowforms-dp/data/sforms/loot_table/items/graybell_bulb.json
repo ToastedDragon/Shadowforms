@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "block.sforms.graybell_bulb",
+                "italic": false
+              },
+              "target": "item_name"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "armor_stand",
+                  "Invisible": true,
+                  "Small": true,
+                  "Tags": ["sforms.placed_graybell_bulb"]
+                },
+                "item_model": "sforms:graybell_bulb"
+              }
+            },
+            "sforms:add_tooltip_lore"
+          ],
+          "name": "minecraft:armor_stand"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

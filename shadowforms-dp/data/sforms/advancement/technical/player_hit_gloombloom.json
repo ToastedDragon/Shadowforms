@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "any_of": ["sforms.gloombloom_bulb"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sforms:blocks/gloombloom/bulb/hit"
+  }
+}

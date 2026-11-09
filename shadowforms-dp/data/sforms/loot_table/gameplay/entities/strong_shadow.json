@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/blackened_heart",
+          "weight": 1
+        }
+      ],
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "entity_tags": {
+            "all_of": [
+              "sforms.strong_shadow"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "sforms:items/shade_hide"
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "max": 2,
+        "min": 1
+      },
+      "condition": {
+        "type": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "light": {
+              "light": {
+                "max": 1,
+                "min": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/icons/discord.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/icons/smithed.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/icons/github.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/icons/credits.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/icons/redirect.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/icons/modrinth.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua009"]
+    },    
+    {
+      "type": "bitmap",
+      "file": "sforms:item/noxicon.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ua010"]
+    }
+  ]
+}

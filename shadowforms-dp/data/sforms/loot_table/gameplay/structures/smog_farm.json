@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 10,
+        "min": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/gloombloom_blossom",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10,
+                "min": 5
+              }
+            }
+          ],
+          "weight": 70
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:blocks/gloombloom_bulb",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "weight": 10,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 10,
+                "min": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_moss_block",
+          "weight": 10
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sforms:gameplay/structures/smog_farm"
+}

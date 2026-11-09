@@ -1,0 +1,6 @@
+{
+    "parent": "sforms:block/graybells/0",
+    "textures": {
+        "1": "sforms:block/graybells/5"
+    }
+}

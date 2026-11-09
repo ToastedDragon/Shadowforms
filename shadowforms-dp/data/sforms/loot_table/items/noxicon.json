@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.sforms.noxicon",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "type": "minecraft:set_custom_data",
+                            "tag": "{sforms:{id:\"noxicon\"}}"
+                        },
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "item_model": "sforms:noxicon",
+                                "!written_book_content": {},
+                                "enchantment_glint_override": false
+                            }
+                        },
+                        "sforms:add_tooltip_lore"
+                    ]
+                }
+            ]
+        }
+    ]
+}

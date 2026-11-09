@@ -1,0 +1,31 @@
+{
+  "parent": "sforms:technical/parent",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "equipment":{
+              "mainhand": {
+                "predicates": {
+                  "custom_data": {"sforms":{"id":"athame"}}
+                }
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "cow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sforms:ritual/sacrifice/drop_heart/cow"
+  }
+}

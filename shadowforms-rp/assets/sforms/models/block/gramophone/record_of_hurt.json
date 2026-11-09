@@ -1,0 +1,6 @@
+{
+    "parent": "sforms:block/gramophone/record_base",
+    "textures": {
+        "1": "sforms:block/gramophone/record_of_hurt"
+    }
+}

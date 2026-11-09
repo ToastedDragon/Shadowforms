@@ -1,0 +1,64 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/0"
+                },
+                "threshold": 0
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/1"
+                },
+                "threshold": 1
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/2"
+                },
+                "threshold": 2
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/3"
+                },
+                "threshold": 3
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/4"
+                },
+                "threshold": 4
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/5"
+                },
+                "threshold": 5
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/6"
+                },
+                "threshold": 6
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "sforms:block/graybells/7"
+                },
+                "threshold": 7
+            }
+        ]
+    }
+}

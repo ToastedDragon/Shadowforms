@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "sforms:records/record_of_hurt",
+        "enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancement.sforms.mortuary_b_side"
+    },
+    "description": [
+      {"translate": "advancement.sforms.mortuary_b_side.description"}
+    ]
+  },
+  "parent": "sforms:mortuary",
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  }
+}

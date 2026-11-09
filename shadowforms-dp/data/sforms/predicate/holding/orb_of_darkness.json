@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{sforms:{id:\"orb_of_darkness\"}}"
+        }
+      }
+    }
+  }
+}

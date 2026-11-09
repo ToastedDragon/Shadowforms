@@ -1,0 +1,10 @@
+{
+  "comparator_output": 6,
+  "description": {
+    "translate": "item.sforms.record_of_soul.song_title"
+  },
+  "length_in_seconds": 416,
+  "sound_event": {
+    "sound_id": "sforms:block.gramophone.record.soul"
+  }
+}

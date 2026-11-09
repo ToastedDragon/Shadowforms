@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "any_of": ["sforms.gloombloom.grown"]
+            }
+          }
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "shears"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sforms:blocks/gloombloom/shear2"
+  }
+}

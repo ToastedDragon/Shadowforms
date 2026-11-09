@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.sforms.sacrificial_heart.horse",
+                "italic": false
+              }
+            },
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": "{sforms:{id:\"sacrificial_heart\",entity:\"horse\"}}"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "!food": {},
+                "!consumable": {},
+                "minecraft:item_model": "sforms:sacrificial_heart/horse",
+                "equippable": {
+                  "slot": "chest",
+                  "equip_sound": {
+                    "sound_id": "sforms:item.sacrificial_heart.equip"
+                  },
+                  "allowed_entities": "#sforms:humanoid",
+                  "dispensable": true
+                },
+                "attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "sforms:horse_sacrificial_heart",
+                    "amount": 0.35,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "minecraft:step_height",
+                    "id": "sforms:horse_sacrificial_heart2",
+                    "amount": 0.4,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            "sforms:add_tooltip_lore"
+          ]
+        }
+      ]
+    }
+  ]
+}

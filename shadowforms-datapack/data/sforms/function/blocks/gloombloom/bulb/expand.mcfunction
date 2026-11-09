@@ -1,2 +1,0 @@
-execute as @n[sort=random,distance=..4,type=interaction,tag=sforms.gloombloom] at @s run function sforms:blocks/gloombloom/bulb/expand_at_roots
-#execute as @e[sort=furthest,distance=..4,type=interaction,tag=sforms.gloombloom,limit=2] at @s run particle angry_villager ~ ~ ~

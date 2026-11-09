@@ -1,0 +1,7 @@
+{
+  "type": "set_enchantments",
+  "enchantments": {
+    "flame": 1,
+    "fire_aspect": 1
+  }
+}

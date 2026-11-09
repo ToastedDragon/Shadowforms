@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/records/flame"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/records/hurt"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/records/shining"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/records/soul"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sforms:items/records/random"
+}

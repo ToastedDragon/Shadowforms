@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "sforms:ritual_scrolls/sealed_ritual_scroll"
+      }
+    },
+    "title": {
+      "translate": "advancement.sforms.open_ritual_scroll"
+    },
+    "description": {
+      "translate": "advancement.sforms.open_ritual_scroll.description"
+    }
+  },
+  "parent": "sforms:get_blackened_heart",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {}
+}

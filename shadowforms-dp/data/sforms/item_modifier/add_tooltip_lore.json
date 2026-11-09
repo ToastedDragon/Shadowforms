@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_lore",
+      "lore": [
+        {
+          "translate": "lore.sforms.tooltip",
+          "color": "white",
+          "font": "sforms:tooltip",
+          "italic": false,
+          "shadow_color": 0
+        }
+      ],
+      "mode": "append"
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{smithed:{ignore:{functionality:1b}}}"
+    },
+    {
+      "type": "set_components",
+      "components": {
+        "tooltip_style": "sforms:sforms"
+      }
+    }
+  ]
+}

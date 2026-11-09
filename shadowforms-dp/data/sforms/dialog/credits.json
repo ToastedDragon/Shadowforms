@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "chat.sforms.credits"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                {
+                    "translate": "chat.sforms.credits.toast",
+                    "color": "#929292"
+                },
+                {
+                    "translate": "chat.sforms.credits.toast.title",
+                    "color": "#ffffff"
+                },
+                {
+                    "translate": "chat.sforms.credits.rime",
+                    "color": "#929292"
+                },
+                {
+                    "translate": "chat.sforms.credits.rime.title",
+                    "color": "#ffffff"
+                },
+                {
+                    "translate": "chat.sforms.credits.vite",
+                    "color": "#929292"
+                },
+                {
+                    "translate": "chat.sforms.credits.vite.title",
+                    "color": "#ffffff"
+                },
+                {
+                    "translate": "chat.sforms.credits.gammos",
+                    "color": "#929292"
+                },
+                {
+                    "translate": "chat.sforms.credits.gammos.title",
+                    "color": "#ffffff"
+                },
+                {
+                    "translate": "chat.sforms.credits.discohund",
+                    "color": "#929292"
+                },
+                {
+                    "translate": "chat.sforms.credits.discohund.title",
+                    "color": "#ffffff"
+                },
+                {
+                    "translate": "chat.sforms.credits.jake",
+                    "color": "#929292"
+                },
+                {
+                    "translate": "chat.sforms.credits.jake.title",
+                    "color": "#ffffff"
+                }
+            ]
+        }
+    ]
+}

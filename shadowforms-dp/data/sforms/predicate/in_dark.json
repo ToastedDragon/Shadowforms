@@ -1,0 +1,14 @@
+{
+  "type": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "light": {
+        "light": {
+          "max": 1,
+          "min": 0
+        }
+      }
+    }
+  }
+}

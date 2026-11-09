@@ -1,0 +1,10 @@
+{
+  "values": [
+    "sforms:blocks/blackened_heart/ritual_conditions/healing",
+    "sforms:blocks/blackened_heart/ritual_conditions/process",
+    "sforms:blocks/blackened_heart/ritual_conditions/sunny",
+    "sforms:blocks/blackened_heart/ritual_conditions/thunder",
+    "sforms:blocks/blackened_heart/ritual_conditions/cyan",
+    "sforms:blocks/blackened_heart/ritual_conditions/transmute"
+  ]
+}

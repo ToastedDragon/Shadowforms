@@ -1,0 +1,10 @@
+{
+  "comparator_output": 6,
+  "description": {
+    "translate": "item.sforms.record_of_shining.song_title"
+  },
+  "length_in_seconds": 422,
+  "sound_event": {
+    "sound_id": "sforms:block.gramophone.record.shining"
+  }
+}

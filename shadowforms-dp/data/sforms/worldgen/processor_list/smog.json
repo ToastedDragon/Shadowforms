@@ -1,0 +1,27 @@
+[
+  {
+    "processor_type": "minecraft:block_age",
+    "mossiness": 0.1
+  },
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "position_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:short_grass",
+          "probability": 0.1
+        },
+        "output_state": {
+          "id": "minecraft:pale_moss_carpet"
+        }
+      }
+    ]
+  }
+]

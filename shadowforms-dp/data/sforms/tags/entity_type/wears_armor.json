@@ -1,0 +1,22 @@
+{
+  "values": [
+    "#can_wear_horse_armor",
+    "#can_wear_nautilus_armor",
+    "player",
+    "zombie",
+    "zombified_piglin",
+    "piglin",
+    "wolf",
+    "zombie_villager",
+    "husk",
+    "skeleton",
+    "stray",
+    "bogged",
+    "parched",
+    "drowned",
+    "zombified_piglin",
+    "wither_skeleton",
+    "piglin_brute",
+    "armor_stand"
+  ]
+}

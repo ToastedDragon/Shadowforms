@@ -1,0 +1,26 @@
+{
+  "parent": "sforms:technical/parent",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "armor.chest": {
+                "predicates": {
+                  "minecraft:custom_data": "{sforms:{id:\"sacrificial_heart\"}}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sforms:items/sacrificial_heart_damage_item"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "parent": "sforms:technical/parent",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "any_of": ["sforms.shadow_brew_drinker"]
+            }
+          }
+        }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sforms:items/shadow_brew/end"
+    }
+  }
+  

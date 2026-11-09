@@ -1,1 +1,0 @@
-execute as @e[distance=0..,tag=sforms.placed_heart.midanimation] at @s unless entity @s[scores={sforms.has_ritualed=1},distance=0..] run function sforms:blocks/blackened_heart/ritual/scan

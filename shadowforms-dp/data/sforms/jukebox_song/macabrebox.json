@@ -1,0 +1,10 @@
+{
+    "comparator_output": 6,
+    "description": {
+        "translate": "music_disc.sforms.macabrebox"
+    },
+    "length_in_seconds": 347,
+    "sound_event": {
+        "sound_id": "sforms:music_disc.macabrebox"
+    }
+}

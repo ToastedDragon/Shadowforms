@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "item.sforms.music_disc",
+                "italic": false
+              }
+            },
+            {
+                "type": "minecraft:set_custom_data",
+                "tag": "{sforms:{id:\"music_disc_macabrebox\"}}"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:jukebox_playable": "sforms:macabrebox",
+                "item_model": "sforms:music_disc_macabrebox",
+                "rarity": "uncommon"
+              }
+            },
+            "sforms:add_tooltip_lore"
+          ]
+        }
+      ]
+    }
+  ]
+}

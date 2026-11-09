@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Shadowforms",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "chat.sforms.description"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "chat.sforms.version",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": [
+        {
+          "translate": "dialog.sforms.links.modrinth.icon",
+          "font": "sforms:icons"
+        },
+        {
+          "translate": "dialog.sforms.links.modrinth",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/shadowforms"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "dialog.sforms.links.smithed.icon",
+          "font": "sforms:icons"
+        },
+        {
+          "translate": "dialog.sforms.links.smithed",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "open_url",
+        "url": "https://smithed.net/packs/sforms"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "dialog.sforms.links.discord.icon",
+          "font": "sforms:icons"
+        },
+        {
+          "translate": "dialog.sforms.links.discord",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "open_url",
+        "url": "https://discord.gg/hg7hgHPfWF"
+      }
+    },
+    {
+      "label": [
+        {
+          "translate": "dialog.sforms.links.github.icon",
+          "font": "sforms:icons"
+        },
+        {
+          "translate": "dialog.sforms.links.github",
+          "font": "minecraft:default"
+        }
+      ],
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/DragonPoika/Shadowforms"
+      }
+    },
+    {
+      "label": {
+        "translate": "chat.sforms.credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "sforms:credits"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "any_of",
+  "terms": [
+    {
+      "type": "all_of",
+      "terms": [
+        {
+          "type": "random_chance",
+          "chance": 0.1
+        },
+        {
+          "type": "location_check",
+          "predicate": {
+            "position": {
+              "y": {
+                "max": -10,
+                "min": -200
+              }
+            },
+            "dimension": "overworld"
+          }
+        }
+      ]
+    },
+    {
+      "type": "all_of",
+      "terms": [
+        {
+          "type": "random_chance",
+          "chance": 0.1
+        },
+        {
+          "type": "location_check",
+          "predicate": {
+            "dimension": "the_nether"
+          }
+        }
+      ]
+    }
+  ]
+}

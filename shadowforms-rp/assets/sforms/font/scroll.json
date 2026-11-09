@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "sforms:gui/scroll.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ua000\ua001",
+        "\ua002\ua003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+   "values": [
+      "sforms:load",
+      "sforms:2s_clock",
+      "sforms:3s_clock",
+      "sforms:entities/shadowforms/sounds/electric",
+      "noxicon:load",
+      "dcf:loaded",
+      "dcf:tick_20"
+   ]
+}

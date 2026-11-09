@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "any_of": ["sforms.placed_heart"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sforms:blocks/blackened_heart/player_hit"
+  }
+}

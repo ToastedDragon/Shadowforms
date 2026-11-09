@@ -1,0 +1,1 @@
+data merge entity @n[tag=sforms.placed_heart,distance=0..,type=item_display] {item:{components:{item_model:"sforms:block/blackened_heart/beating"}}}

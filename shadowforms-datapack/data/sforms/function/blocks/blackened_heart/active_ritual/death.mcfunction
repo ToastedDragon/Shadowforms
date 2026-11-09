@@ -1,1 +1,0 @@
-execute as @a[distance=..15] at @s run function sforms:shadowed_player

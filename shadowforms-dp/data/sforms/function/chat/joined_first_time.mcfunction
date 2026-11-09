@@ -1,0 +1,1 @@
+scoreboard players set @s noxicon.page_num 0

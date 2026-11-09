@@ -1,0 +1,206 @@
+{
+  "block.blackened_heart.idle": {
+    "sounds": [
+      {
+        "name": "sforms:block/blackened_heart/idle",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.idle"
+  },
+  "block.blackened_heart.pentagram.idle": {
+    "sounds": [
+      "sforms:block/blackened_heart/pentagram/idle"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.pentagram.idle"
+  },
+  "block.blackened_heart.blood_sacrifice": {
+    "sounds": [
+      "sforms:block/blackened_heart/blood_sacrifice"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.blood_sacrifice"
+  },
+  "block.blackened_heart.activate_ritual": {
+    "sounds": [
+      "sforms:block/blackened_heart/activate_ritual"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.activate_ritual"
+  },
+  "block.blackened_heart.ritual.succeed": {
+    "sounds": [
+      "sforms:block/blackened_heart/succeed"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.succeed"
+  },
+  "block.blackened_heart.fail": {
+    "sounds": [
+      "sforms:block/blackened_heart/fail"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.fail"
+  },
+  "block.blackened_heart.speak": {
+    "sounds": [
+      "sforms:block/blackened_heart/speak1",
+      "sforms:block/blackened_heart/speak2",
+      "sforms:block/blackened_heart/speak3"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.speak"
+  },
+  "block.blackened_heart.transmute": {
+    "sounds": [
+      "sforms:block/blackened_heart/transmute"
+    ],
+    "subtitle": "subtitles.sforms.blackened_heart.transmute"
+  },
+  "block.sacrificial_altar.initiate": {
+    "sounds": [
+      "sforms:block/sacrificial_altar/initiate"
+    ],
+    "subtitle": "subtitles.sforms.sacrificial_altar.initiate"
+  },
+  "block.gloombloom.grow": {
+    "sounds": [
+      "sforms:block/gloombloom/grow"
+    ],
+    "subtitle": "subtitles.sforms.gloombloom.grow"
+  },
+  "block.gloombloom.spore": {
+    "sounds": [
+      "sforms:block/gloombloom/spread"
+    ],
+    "subtitle": "subtitles.sforms.gloombloom.spore"
+  },
+  "item.sacrificial_heart.idle": {
+    "sounds": [
+      {
+        "name": "sforms:item/sacrificial_heart/idle",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.sforms.sacrificial_heart.idle"
+  },
+  "item.sacrificial_heart.equip": {
+    "sounds": [
+      "sforms:item/sacrificial_heart/equip"
+    ],
+    "subtitle": "subtitles.sforms.sacrificial_heart.equip"
+  },
+  "item.orb_of_darkness.break": {
+    "sounds": [
+      "sforms:item/orb_of_darkness/break"
+    ],
+    "subtitle": "subtitles.sforms.orb_of_darkness.break"
+  },
+  "item.orb_of_darkness.use": {
+    "sounds": [
+      "sforms:item/orb_of_darkness/activate1",
+      "sforms:item/orb_of_darkness/activate2",
+      "sforms:item/orb_of_darkness/activate3"
+    ],
+    "subtitle": "subtitles.sforms.orb_of_darkness.use"
+  },
+  "item.shadow_brew.consume": {
+    "sounds": [
+      "sforms:item/shadow_brew/consume"
+    ],
+    "subtitle": "subtitles.sforms.shadow_brew.consume"
+  },
+  "item.ritual_scroll.open": {
+    "sounds": [
+      "sforms:item/ritual_scroll_open"
+    ],
+    "subtitle": "subtitles.sforms.ritual_scroll_open"
+  },
+  "entity.shadowform.exit": {
+    "sounds": [
+      "sforms:entity/shadowform/exit"
+    ],
+    "subtitle": "subtitles.sforms.shadowform.exit"
+  },
+  "entity.shadowform.electricity": {
+    "sounds": [
+      "sforms:entity/shadowform/electricity1",
+      "sforms:entity/shadowform/electricity2",
+      "sforms:entity/shadowform/electricity3"
+    ],
+    "subtitle": "subtitles.sforms.shadowform.electricity"
+  },
+  "music_disc.macabre": {
+    "sounds": [
+      "sforms:music/macabre"
+    ]
+  },
+  "music_disc.macabrebox": {
+    "sounds": [
+      "sforms:music/macabrebox"
+    ]
+  },
+  "music.smog.loop": {
+    "sounds": [
+      "sforms:music/gnossienne"
+    ]
+  },
+  "block.gramophone.record.hurt": {
+    "sounds": [
+      "sforms:block/gramophone/records/suite_gothique"
+    ]
+  },
+  "block.gramophone.record.soul": {
+    "sounds": [
+      "sforms:block/gramophone/records/symphonie_espagnole"
+    ]
+  },
+  "block.gramophone.record.flame": {
+    "sounds": [
+      "sforms:block/gramophone/records/masquerade_suite"
+    ]
+  },
+  "block.gramophone.record.shining": {
+    "sounds": [
+      "sforms:block/gramophone/records/midnight_the_stars_and_you"
+    ]
+  },
+  "block.urn.summon": {
+    "sounds": [
+      {
+        "name": "block/decorated_pot/insert_fail1",
+        "volume": 0.9
+      },
+      {
+        "name": "block/decorated_pot/insert_fail2",
+        "volume": 0.9
+      },
+      {
+        "name": "block/decorated_pot/insert_fail3",
+        "volume": 0.9
+      },
+      {
+        "name": "block/decorated_pot/insert_fail4",
+        "volume": 0.9
+      },
+      {
+        "name": "block/decorated_pot/insert_fail5",
+        "volume": 0.9
+      }
+    ]
+  },
+  "block.graybell.chime": {
+    "sounds": [
+      "sforms:block/graybell/chime"
+    ],
+    "subtitle": "subtitles.sforms.graybell.chime"
+  },
+  "entity.soul": {
+    "sounds": [
+      "sforms:entity/souls/soul1",
+      "sforms:entity/souls/soul2",
+      "sforms:entity/souls/soul3"
+    ]
+  },
+  "entity.soul.attack": {
+    "sounds": [
+      "sforms:entity/souls/attack"
+    ],
+    "subtitle": "subtitles.sforms.soul.attack"
+  }
+}

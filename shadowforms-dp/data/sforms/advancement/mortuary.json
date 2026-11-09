@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "sforms:block/gramophone/record_of_soul"
+      }
+    },
+    "title": {
+      "translate": "advancement.sforms.mortuary"
+    },
+    "description": {
+      "translate": "advancement.sforms.mortuary.description"
+    }
+  },
+  "parent": "sforms:find_the_smog",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "player": {
+          "type": "location_check",
+          "predicate": {
+            "structures": "sforms:mortuary"
+          }
+        }
+      },
+      "trigger": "location"
+    }
+  }
+}

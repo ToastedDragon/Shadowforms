@@ -1,0 +1,3 @@
+execute if data entity @s[scores={sforms.gramophone.record=0},tag=sforms.checked] interaction run function sforms:blocks/gramophone/get_record
+execute if entity @s[scores={sforms.gramophone.record=1..}] run scoreboard players remove @s sforms.gramophone_music_timer 1
+execute if score @s sforms.gramophone_music_timer matches 0 run execute as @n[tag=sforms.gramophone,type=item_display] at @s run function sforms:blocks/gramophone/music/replay

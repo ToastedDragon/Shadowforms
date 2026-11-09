@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "sforms:orb_of_darkness/unactivated"
+      }
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {"sforms":{"id":"orb_of_darkness"}}
+    }
+  ]
+}

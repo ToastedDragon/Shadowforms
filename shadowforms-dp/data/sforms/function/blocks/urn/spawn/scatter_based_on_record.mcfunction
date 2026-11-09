@@ -1,0 +1,2 @@
+execute as @n[tag=sforms.gramophone,distance=0..,type=interaction] at @n[tag=sforms.urn.active,distance=0..,type=item_display] positioned ~ ~1.5 ~ run function sforms:blocks/urn/spawn/main
+playsound sforms:block.urn.summon block @a ~ ~ ~

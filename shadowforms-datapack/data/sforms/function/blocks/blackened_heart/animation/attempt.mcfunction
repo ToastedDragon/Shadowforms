@@ -1,1 +1,0 @@
-schedule function sforms:blocks/blackened_heart/animation/attempt_numero_dos 3s

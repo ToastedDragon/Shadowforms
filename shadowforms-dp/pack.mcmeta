@@ -1,0 +1,17 @@
+{
+  "id": "sforms",
+  "pack": {
+    "description": [
+      {
+        "text": "Shadowforms\n",
+        "color": "#273261"
+      },
+      {
+        "text": "v1.8.0",
+        "color": "gray"
+      }
+    ],
+    "min_format": [121, 0],
+    "max_format": [121, 0]
+  }
+}

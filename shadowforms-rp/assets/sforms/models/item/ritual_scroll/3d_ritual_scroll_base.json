@@ -1,0 +1,70 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "sforms:item/ritual_scrolls/3d_base",
+		"1": "sforms:item/ritual_scrolls/healing_1",
+		"particle": "sforms:item/ritual_scrolls/3d_base"
+	},
+	"elements": [
+		{
+			"from": [-10, 0, -9],
+			"to": [25, 0, 26],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-10, 0, -9]},
+			"faces": {
+				"north": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"south": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 1, 8.75, 9.75], "texture": "#0"},
+				"down": {"uv": [0, 1, 8.75, 9.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-10, 0.15, -9],
+			"to": [25, 0.15, 26],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-10, 0.15, -9]},
+			"faces": {
+				"north": {"uv": [0, 2, 16, 2], "texture": "#1"},
+				"east": {"uv": [0, 2, 16, 2], "texture": "#1"},
+				"south": {"uv": [0, 2, 16, 2], "texture": "#1"},
+				"west": {"uv": [0, 2, 16, 2], "texture": "#1"},
+				"up": {"uv": [0, 1, 8.75, 9.75], "texture": "#1"},
+				"down": {"uv": [0, 1, 8.75, 9.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-10, 0, -12],
+			"to": [25, 0, -9],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 0, -9]},
+			"faces": {
+				"north": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 3, 2], "texture": "#0"},
+				"south": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 2, 3, 2], "texture": "#0"},
+				"up": {"uv": [0, 0, 8.75, 1], "texture": "#0"},
+				"down": {"uv": [0, 0, 8.75, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-10, 0, 26],
+			"to": [25, 0, 29],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7, 0, 26]},
+			"faces": {
+				"north": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 3, 2], "texture": "#0"},
+				"south": {"uv": [0, 2, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 2, 3, 2], "texture": "#0"},
+				"up": {"uv": [0, 9.75, 8.75, 10.75], "texture": "#0"},
+				"down": {"uv": [0, 9.75, 8.75, 10.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [-9, 10, -1.25],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

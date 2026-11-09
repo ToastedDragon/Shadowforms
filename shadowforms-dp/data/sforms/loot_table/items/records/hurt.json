@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_name",
+                            "name": {
+                                "translate": "item.sforms.record_of_hurt",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "type": "minecraft:set_custom_data",
+                            "tag": "{sforms:{id:\"record_of_hurt\"}}"
+                        },
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "item_model": "sforms:records/record_of_hurt",
+                                "jukebox_playable": "sforms:record_of_hurt",
+                                "rarity": "uncommon",
+                                "!consumable": {},
+                                "!food": {}
+                            }
+                        },
+                        "sforms:add_tooltip_lore"
+                    ]
+                }
+            ]
+        }
+    ]
+}

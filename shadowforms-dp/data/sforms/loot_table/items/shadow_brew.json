@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.sforms.shadow_brew",
+                "italic": false
+              }
+            },
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": "{sforms:{id:\"shadow_brew\"}}"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "sforms:shadow_brew",
+                "!minecraft:food": {}
+              }
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:consumable": {
+                  "animation": "drink",
+                  "has_consume_particles": false,
+                  "sound": {"sound_id": "entity.generic.drink"}
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:max_stack_size": 1
+              }
+            },
+            "sforms:add_tooltip_lore"
+          ]
+        }
+      ]
+    }
+  ]
+}

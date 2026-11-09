@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "item_model": "sforms:sacrificial_heart/cow"
+      }
+    },
+    "hidden": true,
+    "title": {
+      "translate": "advancement.sforms.sacrifice_villager"
+    },
+    "description": [
+      {"translate": "advancement.sforms.sacrifice_villager.description"}
+    ]
+  },
+  "parent": "sforms:equip_sacrificial_heart",
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  }
+}

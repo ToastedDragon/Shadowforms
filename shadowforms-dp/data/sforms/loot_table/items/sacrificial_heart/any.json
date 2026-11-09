@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:block_interact",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/sacrificial_heart/chicken"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/sacrificial_heart/cow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/sacrificial_heart/goat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/sacrificial_heart/horse"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sforms:items/sacrificial_heart/open"
+}

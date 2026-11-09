@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block_interact",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5,
+        "min": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/gloombloom_blossom"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sforms:gameplay/blocks/gloombloom_shear"
+}

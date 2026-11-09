@@ -1,0 +1,6 @@
+{
+	"parent": "sforms:item/ritual_scroll/3d_ritual_scroll_base",
+	"textures": {
+		"1": "sforms:item/ritual_scrolls/cyan_1"
+	}
+}

@@ -1,0 +1,115 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:candle"
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 8,
+              "min": 2
+            }
+          },
+          "name": "minecraft:arrow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 4,
+              "min": 2
+            }
+          },
+          "name": "minecraft:emerald",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2,
+              "min": 1
+            }
+          },
+          "name": "minecraft:honey_bottle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2,
+              "min": 1
+            }
+          },
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 4,
+              "min": 1
+            }
+          },
+          "name": "minecraft:iron_ingot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 2
+              }
+            },
+            {
+              "type": "minecraft:set_potion",
+              "id": "minecraft:slowness"
+            }
+          ],
+          "name": "minecraft:tipped_arrow",
+          "weight": 4
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "sforms:items/gloombloom_blossom"
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "min": 0,
+        "max": 8
+      },
+      "condition": {
+        "type": "random_chance",
+        "chance": 0.2
+      }
+    }
+  ],
+  "random_sequence": "sforms:gameplay/structures/mortuary/reward_common"
+}

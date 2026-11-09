@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/ritual_scrolls/healing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/ritual_scrolls/process"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/ritual_scrolls/sunny"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/ritual_scrolls/thunder"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/ritual_scrolls/cyan"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "sforms:items/ritual_scrolls/transmute"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sforms:items/ritual_scrolls/open"
+}

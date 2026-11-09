@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:parched",
+    "minecraft:bogged",
+    "minecraft:breeze",
+    "minecraft:wither_skeleton",
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:husk",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:blaze",
+    "minecraft:creeper"
+  ]
+}

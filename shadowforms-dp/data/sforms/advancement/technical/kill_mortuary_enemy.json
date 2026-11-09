@@ -1,0 +1,24 @@
+{
+  "parent": "sforms:technical/parent",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "all_of": [
+                "sforms.mortuary_enemy"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sforms:blocks/urn/damage_nearby"
+  }
+}

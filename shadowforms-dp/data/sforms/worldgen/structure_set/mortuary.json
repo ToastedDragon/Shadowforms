@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sforms:mortuary",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 38,
+    "separation": 12,
+    "salt": 756123
+  }
+}

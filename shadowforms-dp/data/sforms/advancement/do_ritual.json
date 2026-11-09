@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_candle"
+    },
+    "title": {
+      "translate": "advancement.sforms.do_ritual"
+    },
+    "description": {
+      "translate": "advancement.sforms.do_ritual.description"
+    }
+  },
+  "parent": "sforms:open_ritual_scroll",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
